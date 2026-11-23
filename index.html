@@ -1,29 +1,30 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Laboratório demonstrativo de indicadores de experiência do cliente.">
-  <title>Customer Signals — Insights</title>
+  <title>Sinais do Cliente — Análises</title>
   <link rel="stylesheet" href="styles.css">
   <script src="app.js" defer></script>
 </head>
 <body>
-  <header class="header"><a href="#" class="logo"><span>cs</span> customer signals</a><span class="sample">AMOSTRA SINTÉTICA · 2026</span></header>
+  <header class="cabecalho"><a href="#" class="marca"><span>SC</span> sinais do cliente</a><span class="amostra">AMOSTRA SIMULADA · 2026</span></header>
   <main>
-    <section class="intro"><div><p class="overline">EXPERIÊNCIA DO CLIENTE / INSIGHTS</p><h1>Os sinais por trás<br>da <i>experiência.</i></h1></div><p class="intro-note">Uma leitura ilustrativa de satisfação, retenção e pontos de atenção em uma base fictícia de SaaS.</p></section>
-    <section class="cohort-bar"><span>VISÃO DA COORTE</span><div role="group" aria-label="Selecionar coorte"><button class="cohort active" data-cohort="all" aria-pressed="true">Todos</button><button class="cohort" data-cohort="new" aria-pressed="false">Novos clientes</button><button class="cohort" data-cohort="mature" aria-pressed="false">Clientes recorrentes</button></div></section>
-    <section class="metrics" aria-live="polite">
-      <article class="metric"><span>CONTAS ANALISADAS</span><strong id="accounts">—</strong><small>amostra demonstrativa</small></article>
-      <article class="metric"><span>RETENÇÃO SIMULADA</span><strong id="retention">—</strong><small><b class="trend">↑</b> leitura da coorte</small></article>
-      <article class="metric"><span>SATISFAÇÃO</span><strong id="satisfaction">—</strong><small>escala ilustrativa de 0 a 5</small></article>
+    <section class="introducao"><div><p class="sobretitulo">EXPERIÊNCIA DO CLIENTE / ANÁLISES</p><h1>Os sinais por trás<br>da <i>experiência.</i></h1></div><p class="nota-introducao">Uma leitura ilustrativa de satisfação, retenção e pontos de atenção em uma base fictícia de software como serviço.</p></section>
+    <section class="barra-coorte"><span>VISÃO DA COORTE</span>    <div role="group" aria-label="Selecionar grupo"><button class="coorte ativo" data-coorte="todas" aria-pressed="true">Todos</button><button class="coorte" data-coorte="novas" aria-pressed="false">Clientes novos</button><button class="coorte" data-coorte="recorrentes" aria-pressed="false">Clientes recorrentes</button></div></section>
+    <section class="metricas" aria-live="polite">
+      <article class="metrica"><span>CONTAS ANALISADAS</span><strong id="contas">—</strong><small>amostra demonstrativa</small></article>
+      <article class="metrica"><span>RETENÇÃO SIMULADA</span><strong id="retencao">—</strong><small><b class="tendencia">↑</b> leitura da coorte</small></article>
+      <article class="metrica"><span>SATISFAÇÃO</span><strong id="satisfacao">—</strong><small>escala ilustrativa de 0 a 5</small></article>
     </section>
-    <section class="chart-card">
-      <div class="chart-head"><div><p class="overline">MOMENTOS DA JORNADA</p><h2>Onde a experiência pode melhorar</h2></div><span class="legend"><i></i> satisfação média</span></div>
-      <div class="chart" id="chart" role="img" aria-label="Gráfico de satisfação por etapa da jornada"></div>
-      <div class="insight"><span class="spark">✳</span><p id="insight-text"></p></div>
+    <section class="cartao-grafico">
+      <div class="cabecalho-grafico"><div><p class="sobretitulo">MOMENTOS DA JORNADA</p><h2>Onde a experiência pode melhorar</h2></div><span class="legenda"><i></i> satisfação média</span></div>
+      <div class="grafico" id="grafico" role="img" aria-label="Gráfico de satisfação por etapa da jornada"></div>
+      <div class="analise"><span class="sinal">✳</span><p id="texto-analise"></p></div>
     </section>
     <footer>Dados sintéticos para demonstração. Indicadores não representam clientes reais nem devem ser interpretados como pesquisa.</footer>
   </main>
 </body>
 </html>
+
