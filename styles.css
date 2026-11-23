@@ -5,7 +5,7 @@
   --floresta:#183b2c;
   --lima:#c8ed76;
   --laranja:#e8794f;
-  --suave:#778276;
+  --suave:#52614f;
   --linha:#e0e2d8
 }
 * {
@@ -42,7 +42,7 @@ body {
   letter-spacing:.12em
 }
 .amostra {
-  color:#748070
+  color:#52614f
 }
 main {
   max-width:1120px;
@@ -57,7 +57,7 @@ main {
   padding:72px 0 48px
 }
 .sobretitulo {
-  color:#8e9b81;
+  color:#52614f;
   margin:0 0 16px
 }
 .introducao h1 {
@@ -70,7 +70,7 @@ main {
 }
 .nota-introducao {
   max-width:320px;
-  color:#758071;
+  color:#52614f;
   font-size:13px;
   line-height:1.7
 }
@@ -82,13 +82,13 @@ main {
   padding:20px 0
 }
 .barra-coorte>span {
-  color:#788476
+  color:#52614f
 }
 .coorte {
   border:0;
   background:transparent;
   padding:9px 12px;
-  color:#778276;
+  color:var(--suave);
   font:600 11px sans-serif;
   border-radius:20px;
   cursor:pointer
@@ -113,7 +113,7 @@ main {
   padding:20px
 }
 .metrica>span {
-  color:#818d7d;
+  color:#52614f;
   font-size:8px
 }
 .metrica strong {
@@ -124,10 +124,10 @@ main {
 }
 .metrica small {
   font-size:10px;
-  color:#939d91
+  color:#5e6b5a
 }
 .tendencia {
-  color:#5b9c50
+  color:#3e7435
 }
 .cartao-grafico {
   background:#fff;
@@ -151,7 +151,7 @@ main {
 }
 .legenda {
   font-size:10px;
-  color:#7f8a7b
+  color:#52614f
 }
 .legenda i {
   display:inline-block;
@@ -200,7 +200,7 @@ main {
   position:absolute;
   bottom:-24px;
   font-size:10px;
-  color:#788476;
+  color:#52614f;
   text-align:center;
   white-space:nowrap
 }
@@ -214,7 +214,7 @@ main {
   border-radius:9px
 }
 .sinal {
-  color:#6ca45c;
+  color:#3e7435;
   font-size:18px
 }
 .analise p {
@@ -225,7 +225,7 @@ main {
 }
 footer {
   padding:24px 0 34px;
-  color:#8d978b;
+  color:#53614f;
   font-size:8px;
   line-height:1.7
 }
